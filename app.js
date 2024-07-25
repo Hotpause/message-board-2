@@ -14,4 +14,4 @@ app.set("view engine", "ejs");
 app.use("/", indexRouter);
 
 const PORT = 3300;
-app.listen(PORT, () => console.log(`listening on port ${PORT}!`));
+app.listen(PORT, "0.0.0.0", () => console.log(`listening on port ${PORT}!`));
